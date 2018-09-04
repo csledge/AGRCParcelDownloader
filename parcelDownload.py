@@ -1,7 +1,8 @@
 # Download parcel data from AGRC and unzip the GDB to the target directory
 # This script creates a dictionary object and loops through it for the downloads
 # It will delete all files and geodatabases in the target directory, download the files, and unzip them
-# Add new county parcels and their Google ID's to the dictionary as tneeded
+# Add new county parcels and their Google ID's to the dictionary as needed
+# Get the ID's for each county in Utah here: https://drive.google.com/drive/folders/0ByStJjVZ7c7meVNnTThOSzVUeEk
 
 googleIDs = {'BoxElder' : '0ByStJjVZ7c7mQUUzRVh5ZTJfS00',
 'Davis' : '0ByStJjVZ7c7mQzVKQ0p3WU5YVUk',
